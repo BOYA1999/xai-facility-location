@@ -2,17 +2,7 @@
 
 This repository is an anonymous reference release for an AI-assisted emergency-facility-location workflow. It contains a data-free planner-in-the-loop harness and a separately labeled external public-data adversarial-ablation archive.
 
-## Evidence boundary
 
-The original training code, run-level outputs, model weights, and restricted Guangzhou input layers were not present in the revision archive used to prepare this release. Consequently:
-
-- this repository is **not** the original experiment archive;
-- it does **not** reproduce the restricted A3 numerical results reported in the manuscript;
-- `xai_facility_location` is a deterministic, standard-library reference harness using Euclidean distance and greedy maximum coverage;
-- the documented A3 GATv2, NSGA-II, SHAP, and LIME workflow is supplied only as protocol pseudocode in [`docs/algorithm_pseudocode.md`](docs/algorithm_pseudocode.md);
-- [`external_ablation`](external_ablation/README.md) contains actual public-proxy run outputs and path-parameterized scripts. Its 4-km, 12-facility, two-layer GAT contract differs from the restricted A3 500-m, 15-facility, three-layer GATv2 contract.
-
-This boundary prevents reconstructed code from being presented as a rerun of unavailable experiments.
 
 ## Quick start
 
