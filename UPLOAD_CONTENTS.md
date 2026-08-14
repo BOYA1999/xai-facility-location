@@ -13,15 +13,7 @@
 - privacy-conscious `.gitignore` and third-party notice;
 - final checksum manifest generated after validation.
 
-## Deliberately excluded
 
-- manuscripts, rebuttals, checklists, PDFs, Word files, and rendered figures;
-- original restricted A3 data, raw public-dataset downloads, and derived spatial geometries;
-- model weights, checkpoints, embeddings, caches, logs, and any run outputs outside the whitelisted external-ablation tables;
-- A3 run outputs, manuscript tables, and paper-specific build scripts;
-- planner questionnaires, participant records, demographics, interviews, consent, or ethics records;
-- author names, affiliations, emails, account names, local absolute paths, and credentials;
-- archives and Git metadata inside the upload directory.
 
 ## Scientific status
 
