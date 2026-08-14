@@ -1,0 +1,11 @@
+run,variant,structure,positive_loss_weight,embedding_corruption,metric_max_absolute_difference,front_rows_archive,front_rows_rerun,front_max_absolute_difference
+context_only,context_only,parallel,1.0,0.0,5.551115123125783e-17,64,64,1.7763568394002505e-15
+confidence_inverted,confidence_inverted,parallel,1.0,0.0,5.551115123125783e-17,64,64,1.7763568394002505e-15
+graph_then_diversity,full,graph_then_diversity,1.0,0.0,5.551115123125783e-17,64,64,1.7763568394002505e-15
+diversity_then_graph,full,diversity_then_graph,1.0,0.0,0.0,64,64,1.7763568394002505e-15
+weight_01,full,parallel,0.1,0.0,5.551115123125783e-17,64,64,1.7763568394002505e-15
+weight_10,full,parallel,10.0,0.0,0.0,64,64,1.7763568394002505e-15
+corruption_025,context_only_no_probe,parallel,1.0,0.25,0.0,64,64,1.7763568394002505e-15
+corruption_050,context_only_no_probe,parallel,1.0,0.5,5.551115123125783e-17,64,64,1.7763568394002505e-15
+corruption_100,context_only_no_probe,parallel,1.0,1.0,5.551115123125783e-17,64,64,1.7763568394002505e-15
+corruption_200,context_only_no_probe,parallel,1.0,2.0,5.551115123125783e-17,64,64,1.7763568394002505e-15

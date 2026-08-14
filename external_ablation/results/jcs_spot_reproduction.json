@@ -1,0 +1,12 @@
+{
+  "condition": {
+    "city": "zhaotong",
+    "population_source": "worldpop",
+    "edge_failure_rate": 0.0,
+    "seed": 113
+  },
+  "runs": 10,
+  "tolerance": 1e-12,
+  "metrics_reproduced_within_tolerance": 10,
+  "fronts_reproduced_within_tolerance": 10
+}

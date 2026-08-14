@@ -1,0 +1,16 @@
+deap==1.4.4
+geopandas==1.1.4
+matplotlib==3.11.1
+networkx==3.6.1
+numpy==2.4.6
+osmnx==2.1.0
+pandas==3.0.3
+PuLP==3.3.2
+pyproj==3.7.2
+requests==2.34.2
+rasterio==1.5.0
+scikit-learn==1.9.0
+scipy==1.18.0
+shap==0.52.0
+shapely==2.1.2
+torch==2.13.0

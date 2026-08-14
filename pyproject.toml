@@ -1,0 +1,18 @@
+[build-system]
+requires = ["setuptools>=68"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "xai-facility-location-reference"
+version = "0.1.0"
+description = "Anonymous data-free reference harness for planner-guided facility-location reruns"
+readme = "README.md"
+requires-python = ">=3.10"
+dependencies = []
+
+[project.scripts]
+xai-facility-location = "xai_facility_location.cli:main"
+
+[tool.setuptools.packages.find]
+include = ["xai_facility_location*"]
+

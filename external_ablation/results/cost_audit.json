@@ -1,0 +1,38 @@
+[
+  {
+    "module": "GAT",
+    "parameters": 736,
+    "parameter_delta_fraction": 0.0,
+    "macs": 445712,
+    "mac_delta_fraction": 0.0,
+    "parameter_gate": true,
+    "mac_gate": true
+  },
+  {
+    "module": "GCN",
+    "parameters": 730,
+    "parameter_delta_fraction": -0.008152173913043478,
+    "macs": 456570,
+    "mac_delta_fraction": 0.024361022364217253,
+    "parameter_gate": true,
+    "mac_gate": true
+  },
+  {
+    "module": "GraphSAGE",
+    "parameters": 729,
+    "parameter_delta_fraction": -0.009510869565217392,
+    "macs": 432807,
+    "mac_delta_fraction": -0.028953674121405752,
+    "parameter_gate": true,
+    "mac_gate": true
+  },
+  {
+    "module": "MLP+fixed diffusion",
+    "parameters": 730,
+    "parameter_delta_fraction": -0.008152173913043478,
+    "macs": 440728,
+    "mac_delta_fraction": -0.011182108626198083,
+    "parameter_gate": true,
+    "mac_gate": true
+  }
+]
