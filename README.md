@@ -49,7 +49,7 @@ No dataset is bundled or downloaded by this repository. The public hazard datase
 
 The public hazard overlays are stress-test inputs; they are not substitutes for, or validation of, the restricted Guangzhou layers.
 
-## Real external adversarial ablation
+##  ablation
 
 The release includes frozen run-level CSVs for the 30-seed equal-parameter/equal-MAC representation replacement, the five-level public-proxy loss-weight curve, the original public Guangzhou paired baseline, 20-city structure/order variants, four embedding-corruption levels, and fixed-condition reproduction checks. See [`external_ablation/README.md`](external_ablation/README.md) for commands, provenance, dependencies, and evidence limits.
 
