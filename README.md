@@ -1,6 +1,6 @@
 # Explainable Facility Location — Reference Release
 
-This repository is an anonymous reference release for an AI-assisted emergency-facility-location workflow. It contains a data-free planner-in-the-loop harness and a separately labeled external public-data adversarial-ablation archive.
+This repository is an anonymous reference release for an AI-assisted emergency-facility-location workflow. It contains a data-free planner-in-the-loop harness and a separately labeled archive.
 
 
 
